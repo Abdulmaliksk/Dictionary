@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="head">
+        <h1 class="title">Dictionary</h1>
+        <form class="search-container">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="What can I help you with today?"
+          />
+          <a href="#"
+            ><img
+              class="search-icon bttn"
+              src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
+          /></a>
+        </form>
+      </div>
+      <div class="card-3d-wrap mx-auto">
+        <div class="section text-center">
+          <h1 class="mainWord"></h1>
+          <u><h2>MEANING:</h2></u>
+          <h3 id="meaning"></h3>
+          <u><h2>WIKI:</h2></u>
+          <h3 id="wiki"></h3>
+          <u><h2>AUDIO:</h2></u>
+          <h3 id="audio"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </body>
+</html>
